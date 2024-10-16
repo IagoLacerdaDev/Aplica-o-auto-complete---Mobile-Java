@@ -1,0 +1,93 @@
+<!-- activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prova 1: Matri:200028764"
+        android:textColor="#FFFF00"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome: *"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/surnameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sobrenome: *"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/enrollmentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matrícula: *"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/finalMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textColor="#FFFF00"
+        android:textSize="18sp"
+        android:paddingBottom="16dp"
+        android:layout_gravity="center"/>
+
+    <GridLayout
+        android:id="@+id/keyGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="8"
+        android:columnCount="4"
+        android:padding="8dp">
+
+        <!-- Os botões serão adicionados dinamicamente na MainActivity.java -->
+
+    </GridLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/shuffleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Embaralhar"
+        android:textColor="#000000"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:textSize="16sp" />
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+        android:textColor="#FFFFFF"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

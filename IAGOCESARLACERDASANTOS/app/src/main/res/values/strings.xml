@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JogoApp</string>
+    <string name="titulo">Prova 1: Matri:200028764</string>
+    <string name="mensagem_final">Parabéns! Você completou.</string>
+    <string name="embaralhar">Embaralhar</string>
+    <string name="reset">Reset</string>
+</resources>
